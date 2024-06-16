@@ -14,6 +14,11 @@ public class DemoApplication {
 		return "Hello Radhe Krishna...!";
 	}
 	
+	@GetMapping("/hi")
+	public String sayHi() {
+		return "Hello From JAVA CICD...!";
+	}
+	
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
