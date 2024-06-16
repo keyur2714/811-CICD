@@ -16,7 +16,7 @@ public class DemoApplication {
 	
 	@GetMapping("/hi")
 	public String sayHi() {
-		return "Hello From JAVA CICD...!";
+		return "Hello From JAVA CICD Test...!";
 	}
 	
 
